@@ -1,0 +1,2608 @@
+body{ 
+  /* Establecer un fondo degradado para el cuerpo de la página */
+  background: -webkit-linear-gradient(to right, #434343, #000000); /* Para Chrome 10-25 y Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* Estándar W3C, para IE 10+, Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+*{
+  /* Establecer márgenes y rellenos a cero para todos los elementos */
+  margin: 0; /* Establecer el margen exterior a cero */
+  padding: 0; /* Establecer el relleno interior a cero */
+}
+
+header{ /* Estilos para el encabezado */
+  border-bottom: 2px solid #dfdfdf; /* Añadir un borde inferior de 2 píxeles sólido con color #dfdfdf */
+  padding-bottom: 10px; /* Añadir un relleno de 10 píxeles en la parte inferior del encabezado */
+}
+
+
+nav{ /* Estilos para el elemento de navegación */
+  display: flex; /* Utilizar un contenedor flexible para alinear elementos */
+  align-items: center; /* Alinear elementos verticalmente al centro */
+  justify-content: space-between; /* Distribuir el espacio entre los elementos */
+  padding-left: 5%; /* Añadir un relleno del 5% en el lado izquierdo */
+  padding-right: 5%; /* Añadir un relleno del 5% en el lado derecho */
+  font-weight: bold; /* Establecer un peso de fuente en negrita */
+
+}
+
+img{ /* Estilos para twodas las imágenes */
+  margin-right: 10px; /* Añadir un margen de 10 píxeles en el lado derecho de cada imagen */
+}
+
+
+/* Aqui Empieza la parte de la clase de Menú*/
+.menu li{ /* Estilos para los elementos de lista dentro del menú */
+  margin-left:120px ;
+  display: inline-block; /* Mostrar los elementos de lista en línea, uno al lado del otro */
+  padding: 0px 20px; /* Añadir relleno de 0 píxeles en la parte superior e inferior, y 20 píxeles en los lados izquierdo y derecho */
+}
+.menu a{ /* Estilos para los enlaces dentro del menú */
+  font-size: 27px; /* Tamaño de fuente de 27 píxeles */
+  font-family: Anton; /* Cambiar el estilo de fuente a Anton */
+  color: rgb(243, 157, 86); /* Color del texto en formato RGB */
+  text-decoration: none; /* Eliminar subrayado predeterminado de los enlaces */
+}
+.menu a:hover{ /* Estilos para los enlaces dentro del menú cuando están en estado de "hover" */
+  color: #faaf84; /* Cambiar el color del texto a #faaf84 cuando se encuentra en estado de "hover" */
+}
+
+/* Aqui Empieza la parte de la clase de Secciones*/
+.secciones { /* Estilos para el contenedor de secciones */
+  padding: 8px 0; /* Espacio interno de 8 píxeles en la parte superior e inferior */
+  text-align: center; /* Centrar el texto dentro del contenedor */
+    
+}
+.secciones ul { /* Estilos para la lista dentro del contenedor de secciones */
+  list-style: none; /* Eliminar los estilos de lista predeterminados */
+  margin: 0; /* Eliminar el margen */
+  padding: 0; /* Eliminar el relleno */
+}
+
+
+
+.secciones li{ /* Estilos para los elementos de lista dentro del contenedor de secciones */
+  display: inline-block; /* Mostrar los elementos de lista en línea, uno al lado del otro */
+  padding: 0px 13px; /* Añadir relleno de 0 píxeles en la parte superior e inferior, y 13 píxeles en los lados izquierdo y derecho */
+}
+
+.secciones a{ /* Estilos para los enlaces dentro del contenedor de secciones */
+  font-size: 22px; /* Tamaño de fuente de 22 píxeles */
+  font-family: Anton; /* Cambiar estilo de fuente a Anton a los <li> <a> de secciones*/
+  text-decoration: none; /* Eliminar el subrayado predeterminado de los enlaces */
+
+  display: block; /* Convertir los enlaces en bloques */
+  padding: 10px 10px; /* Añadir relleno de 10 píxeles en la parte superior e inferior, y 8 píxeles en los lados izquierdo y derecho */
+}
+
+
+
+/* Color para cada texto de los <li> de la clase de secciones  y su hover*/
+/* Estilos para varios elementos con clases específicas */
+.elemento-1 {
+  color: #F14F4F; /* Color rojo claro */ 
+}
+.elemento-1:hover {
+  color: #da0000; /* Color rojo oscuro al pasar el cursor */
+}
+.elemento-2 {
+  color: #FAE05C; /* Color amarillo claro */ 
+}
+.elemento-2:hover {
+  color: #d8b509; /* Color amarillo oscuro al pasar el cursor */
+}
+.elemento-4 {
+  color: #be2621; /* Color rojo fuerte */ 
+}
+.elemento-4:hover {
+  color: #85110d; /* Color rojo oscuro al pasar el cursor */
+}
+.elemento-6 {
+  color: #CAF7FF; /* Color azul claro */ 
+}
+.elemento-6:hover {
+  color: #52c5da; /* Color azul claro pero fuerte al pasar el cursor */
+}
+.elemento-7 {
+  color: #FEB3A0; /* Color rosa claro */ 
+}
+.elemento-7:hover {
+  color: #e47a60; /* Color rosa oscuro al pasar el cursor */
+}
+.elemento-10 { /*BOTON DE CONTROL DE ADICCIONES Y APOYO*/
+  color: #e4e4a9; 
+}
+.elemento-10:hover {
+  color: #b9b962; 
+}
+.elemento-11 { /*BOTON DE CONTROL DE ADICCIONES Y APOYO*/
+  color: #5392af; 
+}
+.elemento-11:hover {
+  color: #6fb5ff; 
+}
+.elemento-12 { /*BOTON DE CONTROL DE ADICCIONES Y APOYO*/
+  color: #ccca60; 
+}
+.elemento-12:hover {
+  color: #9e943c; 
+}
+
+
+
+.head2{ /* Estilos para el elemento con clase "head2" */
+  border-bottom: 2px solid #dfdfdf; /* Añadir un borde inferior sólido de 2 píxeles con color #dfdfdf */
+  padding-bottom: 10px; /* Añadir un relleno de 10 píxeles en la parte inferior */
+}
+
+
+/* Aqui empieza el estilo para acomodar logo, texto del logo y menu*/
+.hero{ /* Aquí empieza el estilo para acomodar logo, texto del logo y menú */
+  display: flex; /* Utilizar un contenedor flexible */
+  justify-content: space-between; /* Distribuir el espacio entre los elementos */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+  padding: 2rem 0; /* Añadir un relleno de 2rem en la parte superior e inferior */
+}
+
+.customer-support{ /* Estilos para el elemento con clase "customer-support" */
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+  gap: 2rem ; /* Establecer un espacio entre los elementos de 2rem */
+}
+
+.customer-support i{ /* Estilos para los elementos <i> dentro del elemento con clase "customer-support" */
+  font-size: 3.3rem; /* Establecer el tamaño de fuente de los elementos <i> a 3.3 rem */
+}
+
+.content-customer-support{ /* Estilos para el elemento con clase "content-customer-support" */
+  display: flex; /* Utilizar un contenedor flexible */
+  flex-direction: column; /* Utilizar un contenedor flexible */
+}
+
+.container-logo{ /* Estilos para el elemento con clase "container-logo" */
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+  gap: .5rem; /* Establecer un espacio entre los elementos de 0.5rem */
+}
+
+.text1{ /*Texto del nombre de la pagina*/
+  font-family: ADLaM Display; /* Establecer la fuente como ADLaM Display */
+  font-size: 26px; /* Establecer el tamaño de la fuente a 26 píxeles */
+  color: #cbf792; /* Establecer el color del texto como #cbf792 (verde claro) */
+}
+
+.text2{ /*Texto del eslogan*/
+  font-family: Anton; /* Establecer la fuente como Anton */
+  font-size: 20px; /* Establecer el tamaño de la fuente a 20 píxeles */
+  color: #cbf792; /* Establecer el color del texto como #cbf792 (verde claro) */
+}
+
+
+/*Seccion del formulario*/
+form { /* Estilos para los elementos <form> */
+  max-width: 600px;/* Establecer el ancho máximo del formulario en 600 píxeles */
+  margin: auto; /* Centrar el formulario horizontalmente en su contenedor padre */
+}
+label{ /* Estilos para los elementos <label> */
+  display: block; /* Cambiar el elemento a un bloque para ocupar toda la anchura disponible */
+  background-color: #d2b48c; /* Establecer el color de fondo del elemento como #d2b48c */
+  font-size: 21px; /* Establecer el tamaño de la fuente del texto del label a 21 píxeles */
+}
+input{ /* Estilos para los elementos <input> */
+  background-color:#ffffff; /* Establecer el color de fondo del input como blanco */
+  color: black; /* Establecer el color del texto como negro */
+  font-size: 16px; /* Establecer el tamaño de la fuente del texto del input a 16 píxeles */
+}
+
+/* Estilos para etiquetas con clases específicas */
+.label-nombre {
+  background-color: #eedcc6; /* Establecer el color de fondo de la etiqueta con clase "label-nombre" */
+}
+.label-correo {
+  background-color: #9fd5e7; /* Establecer el color de fondo de la etiqueta con clase "label-correo" */
+}
+.label-edad {
+  background-color: #ffd3ac; /* Establecer el color de fondo de la etiqueta con clase "label-edad" */
+}
+.label-genero {
+  background-color: #b1e6b3; /* Establecer el color de fondo de la etiqueta con clase "label-genero" */
+}
+.label-pregunta1 {
+  background-color: #ffffae; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta1" */
+}
+.label-pregunta2 {
+  background-color: #cacafa; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta2" */
+}
+.label-pregunta3 {
+  background-color: #fda4b3; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta3" */
+}
+.label-pregunta4 {
+  background-color: #79ccec; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta4" */
+}
+.label-pregunta5 {
+  background-color: #f08080; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta5" */
+}
+.label-pregunta6 {
+  background-color: #abffff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+
+textarea{ /* Estilos para los elementos <textarea> */
+  background-color:#ffffff; /* Establecer el color de fondo del textarea como blanco */
+}
+
+.form-group { /* Estilos para los elementos con clase "form-group" */
+  display: flex; /* Utilizar un contenedor flexible */
+  flex-direction: column; /* Mostrar los elementos hijos en una columna */
+  margin-bottom: 10px; /* Establecer un margen inferior de 10 píxeles */
+}
+
+.form-group label { /* Estilos para los elementos <label> dentro de elementos con clase "form-group" */
+  margin-bottom: 4px; /* Establecer un margen inferior de 4 píxeles para separar los labels */
+  border-radius: 5px; /* Establecer bordes redondeados para los labels */
+}
+
+/* Estilos para los elementos <input> y <textarea> dentro de elementos con clase "form-group" */
+.form-group input, 
+.form-group textarea { 
+  width: calc(100% - 10px); /* Establecer el ancho del input o textarea como el 100% menos 10 píxeles para dejar espacio para el borde */
+  padding: 5px; /* Establecer un relleno de 5 píxeles dentro del input o textarea */
+  color: #666666; /* Establecer el color del texto dentro del input o textarea */
+  border: 1px solid #cccccc; /* Establecer un borde sólido de 1 píxel con color #cccccc alrededor del input o textarea */
+  border-radius: 5px; /* Establecer bordes redondeados para el input o textarea */
+}
+
+.button-container {
+  display: flex; /* Utilizar un contenedor flexible */
+  justify-content: center; /* Centrar los botones horizontalmente */
+  margin-top: 10px; /* Agregar espacio entre el último input y los botones */
+}
+
+/*Seccion de el checkbox*/
+.condiciones1 label { /* Estilos para los elementos <label> dentro de elementos con clase "condiciones1" */
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+}
+
+.condiciones1 input[type="checkbox"] { /* Estilos para los elementos <input> de tipo "checkbox" dentro de elementos con clase "condiciones1" */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles para ajustar el espacio entre el checkbox y el texto */
+  border-radius: 5px; /* Establece bordes redondeados para el checkbox */
+}
+
+.condiciones1 span { /* Estilos para los elementos <span> dentro de elementos con clase "condiciones1" */
+  color: #000000; /* Establece el color del texto como negro (#000000) */
+}
+
+/*Checkbox de politicas*/
+.condiciones2 label { /* Estilos para los elementos <label> dentro de elementos con clase "condiciones2" */
+  display: flex; /* Utiliza un contenedor flexible */
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+}
+
+.condiciones2 input[type="checkbox"] {  /* Estilos para los elementos <input> de tipo "checkbox" dentro de elementos con clase "condiciones2" */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles para ajustar el espacio entre el checkbox y el texto */
+  border-radius: 5px; /* Establece bordes redondeados para el checkbox */
+}
+
+.condiciones2 span { /* Estilos para los elementos <span> dentro de elementos con clase "condiciones2" */
+  color: #000000; /* Establece el color del texto como negro (#000000) */
+}
+
+/*Seccion de botones*/
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" */
+.button-container input[type="submit"],
+.button-container input[type="reset"] { 
+  background-color: #9563BA; /* Establece el color de fondo del botón como #9563BA */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+}
+
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" al pasar el cursor sobre ellos */
+.button-container input[type="submit"]:hover,
+.button-container input[type="reset"]:hover {
+  background-color: #BB85E3 ; /* Establece el color de fondo del botón como #BB85E3 al pasar el cursor sobre él */
+}
+
+.espacio1 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 25px; /* Establece un margen inferior de 25 píxeles */
+}
+
+.box1{ /* Estilos para elementos con clase "box1" */
+  text-align: center; /* Establece el texto dentro del elemento alineado al centro */
+  
+}
+
+.box1 h1{ /* Estilos para los elementos <h1> dentro de elementos con clase "box1" */
+  font-size: 26px; /* Establece el tamaño de la fuente del elemento <h1> como 26 píxeles */
+  color: rgb(255, 255, 255); /* Establece el color del texto del elemento <h1> como negro */
+  font-family: Helvetica; /* Establece la fuente del texto del elemento <h1> como Helvetica */
+}
+
+.espacio2 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 55px; /* Establece un margen inferior de 55 píxeles */
+}
+
+select { /* Estilos para los elementos <select> */
+  font-size: 17px; /* Establece el tamaño de la fuente como 17 píxeles */
+  border-radius: 5px; /* Establece bordes redondeados para el elemento <select> */
+}
+
+.boxdatos{
+  background-color: rgb(177, 155, 189); /* Establece el color de fondo como un tono de morado */
+  border-radius: 5px; /* Establece bordes redondeados con un radio de 5 píxeles */
+  color: rgb(67, 3, 87); /* Establece el color del texto como un tono oscuro */
+  font-size: 19px; /* Establece el tamaño de la fuente como 19 píxeles */
+  text-align: center; /* Alinea el texto al centro */
+  width: 400px; /* Establece el ancho del elemento como 400 píxeles */
+  height: 52px; /* Establece la altura del elemento como 52 píxeles */
+  margin-left: auto; /* Centra horizontalmente el elemento en su contenedor padre */
+  margin-right: auto; /* Centra horizontalmente el elemento en su contenedor padre */
+}
+
+.espaciodatosp{ /*Clase para dar espacio entre elementos*/
+  margin-bottom: 20px; /* Establece un margen inferior de 40 píxeles */
+}
+
+.espacio3 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 17px; /* Establece un margen inferior de 17 píxeles */
+}
+
+.espacio4 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 60px; /* Establece un margen inferior de 60 píxeles */
+}
+
+.boxencuesta{ /* Estilos para elementos con clase "boxencuesta" */
+  background-color: rgb(177, 155, 189); /* Establece el color de fondo como un tono de morado */
+  border-radius: 5px; /* Establece bordes redondeados con un radio de 5 píxeles */
+  color: rgb(67, 3, 87); /* Establece el color del texto como un tono oscuro */
+  font-size: 19px; /* Establece el tamaño de la fuente como 19 píxeles */
+  text-align: center; /* Alinea el texto al centro */
+  width: 500px; /* Establece el ancho del elemento como 500 píxeles */
+  height: 49px; /* Establece la altura del elemento como 49 píxeles */
+  margin-left: auto; /* Centra horizontalmente el elemento en su contenedor padre */
+  margin-right: auto; /* Centra horizontalmente el elemento en su contenedor padre */
+}
+
+.espacio5 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 18px; /* Establece un margen inferior de 18 píxeles */
+}
+
+.encuesta { /* Estilos para elementos con clase "encuesta" */
+  display: flex; /* Utiliza un contenedor flexible */
+  flex-direction: column;  /* Muestra los elementos hijos en una columna */
+  margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+}
+
+.encuesta label { /* Estilos para los elementos <label> dentro de elementos con clase "encuesta" */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los labels */
+  border-radius: 5px; /* Establece bordes redondeados para los labels */
+}
+
+.encuesta textarea { /* Estilos para los elementos <textarea> dentro de elementos con clase "encuesta" */
+  width: calc(100% - 10px); /* Establece el ancho del textarea restando 10 píxeles para dejar espacio para el borde */
+  padding: 5px; /* Establece el relleno interno del textarea */
+  color: #000000; /* Establece el color del texto del textarea */
+  border: 1px solid #cccccc; /* Establece un borde sólido de color gris para el textarea */
+  border-radius: 5px; /* Establece bordes redondeados para el textarea */
+  background-color: white; /* Establece el color de fondo del textarea como blanco */
+  font-size: 17px; /* Establece el tamaño de la fuente del textarea como 17 píxeles */
+}
+
+.label-calificacion { /* Estilos para elementos con clase "label-calificacion" */
+  background-color: #c1d48d; /* Establece el color de fondo como #c1d48d */
+}
+
+.label-comentario { /* Estilos para elementos con clase "label-comentario" */
+  background-color: #e2ad7c; /* Establece el color de fondo como #e2ad7c */
+}
+
+.formulario h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "formulario" */
+  color: #e47a60; /* Establece el color del texto como #e47a60 (un tono de naranja) */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+}
+
+/*Seccion de la parte de titulo*/
+.introduccion { /* Estilos para la clase "introduccion" */
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el div .introduccion */
+  }
+  .contenedor { /* Estilos para la clase "contenedor" */
+  display: flex; /* Utiliza un contenedor flexible */
+  align-items: center; /* Centra verticalmente la imagen y el título */
+  margin-right: 20px; /* Espacio del lado derecho de la imagen */
+  margin-left: 20px; /* Espacio del lado izquierdo del título */
+  }
+  .gift { /* Estilos para la clase "gift" */
+  max-width: 300px; /* Establece el ancho máximo de la imagen como 300 píxeles */
+  border-radius: 8px; /* Establece bordes redondeados con un radio de 8 píxeles */
+  width: 300px; /* Establece el ancho de la imagen como 300 píxeles */
+  height: 320px; /* Establece la altura de la imagen como 320 píxeles */
+  }
+  .titulo { /* Estilos para la clase "titulo" */
+  margin-left: 20px; /* Establece un margen izquierdo de 20 píxeles entre la imagen y el título */
+  font-size: 48px; /* Establece el tamaño de la fuente como 48 píxeles */
+  color: #bde28d; /* Establece el color del texto como #bde28d (un tono de verde) */
+  font-family: Cambria; /* Establece la fuente del texto como Cambria */
+  }
+  .espacio6 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 10px;  /* Establece un margen inferior de 10 píxeles */
+
+}
+.espacio7 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 3px; /* Establece un margen inferior de 3 píxeles */
+}
+
+/*Seccion de la parte de introduccion*/
+.introduccion { /* Estilos para la clase "introduccion" */
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor2 { /* Estilos para la clase "contenedor2" */
+  display: flex; /* Utiliza un contenedor flexible */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos en el eje principal */
+  max-width: 1200px; /* Establece un ancho máximo para el contenedor */
+  }
+  .texto h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "texto" */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #F14F4F; /* Establece el color del texto como #F14F4F */
+  }
+  .texto {  /* Estilos para elementos con clase "texto" */
+  margin-bottom: 10px; /* Espacio entre el texto y la imagen */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+ }
+  .parrafo { /* Estilos para elementos con clase "titulo" y "parrafo" */
+  text-align: center; /* Centra horizontalmente el texto */
+  }
+  .titulo{
+    text-align: center;
+  }
+  .parrafo { /* Estilos para elementos con clase "parrafo" */
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles para separar el párrafo de otros elementos */
+  }
+  .video { /* Estilos para elementos con clase "video" */
+  border-radius: 8px; /* Establece bordes redondeados con un radio de 8 píxeles */
+  width: 700px; /* Establece el ancho del elemento como 700 píxeles */
+  height: 400px; /* Establece la altura del elemento como 400 píxeles */
+  }
+
+  /*------------------------------------------------------------------OBJETIVO---------------------------------------------------------------------*/
+
+  /*Seccion de la parte de objetivo*/
+.objetivo { /* Estilos para la clase "introduccion" */
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor-objetivo { /* Estilos para la clase "contenedor2" */
+  display: flex; /* Utiliza un contenedor flexible */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos en el eje principal */
+  max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  }
+  .texto-objetivo h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "texto" */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #6fb5ff; /* Establece el color del texto como #F14F4F */
+  }
+  .texto-objetivo {  /* Estilos para elementos con clase "texto" */
+  margin-bottom: 10px; /* Espacio entre el texto y la imagen */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+ }
+  .titulo-objetivo, .parrafo-objetivo { /* Estilos para elementos con clase "titulo" y "parrafo" */
+  text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo-objetivo { /* Estilos para elementos con clase "parrafo" */
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles para separar el párrafo de otros elementos */
+  }
+
+
+  /*----------------------------------------------------------------------MISION------------------------------------------------------------------------*/
+    /*Seccion de la parte de mision*/
+.mision { /* Estilos para la clase "introduccion" */
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor-mision { /* Estilos para la clase "contenedor2" */
+  display: flex; /* Utiliza un contenedor flexible */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos en el eje principal */
+  max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  }
+  .texto-mision h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "texto" */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #6fb5ff; /* Establece el color del texto como #F14F4F */
+  }
+  .texto-mision {  /* Estilos para elementos con clase "texto" */
+  margin-bottom: 10px; /* Espacio entre el texto y la imagen */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+ }
+  .titulo-mision, .parrafo-mision { /* Estilos para elementos con clase "titulo" y "parrafo" */
+  text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo-mision { /* Estilos para elementos con clase "parrafo" */
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles para separar el párrafo de otros elementos */
+  }
+
+
+
+
+
+
+
+
+  /*----------------------------------------------------------------------VISION----------------------------------------------------------------------*/
+  .vision { /* Estilos para la clase "introduccion" */
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+    }
+    .contenedor-vision { /* Estilos para la clase "contenedor2" */
+    display: flex; /* Utiliza un contenedor flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos en el eje principal */
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+    }
+    .texto-vision h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "texto" */
+    font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+    color: #6fb5ff; /* Establece el color del texto como #F14F4F */
+    }
+    .texto-vision {  /* Estilos para elementos con clase "texto" */
+    margin-bottom: 10px; /* Espacio entre el texto y la imagen */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+   }
+    .titulo-vision, .parrafo-vision { /* Estilos para elementos con clase "titulo" y "parrafo" */
+    text-align: center; /* Centra horizontalmente el texto */
+    }
+    .parrafo-vision { /* Estilos para elementos con clase "parrafo" */
+    margin-top: 10px; /* Establece un espacio superior de 10 píxeles para separar el párrafo de otros elementos */
+    }
+  
+
+
+
+  /*----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Drogas*/ /*Titulo de que son las drogas*/
+.drogatitu { /* Estilos para elementos con clase "drogatitu" */
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor { /* Estilos para elementos con clase "contenedor" */
+    display: flex; /* Utiliza un contenedor flexible */
+    align-items: center; /* Centra verticalmente la imagen y el título */
+    margin-right: 20px; /* Espacio del lado derecho de la imagen */
+    margin-left: 20px; /* Espacio del lado izquierdo del título */
+  }
+  .gift { /* Estilos para elementos con clase "gift" */
+    max-width: 300px; /* Ajusta el ancho máximo de la imagen según sea necesario */
+    border-radius: 8px; /* Establece bordes redondeados con un radio de 8 píxeles */
+    width: 300px; /* Establece el ancho de la imagen como 300 píxeles */
+    height: 320px; /* Establece la altura de la imagen como 320 píxeles */
+  }
+  .titulo2 { /* Estilos para elementos con clase "titulo2" */
+    margin-left: 20px; /* Establece un margen izquierdo de 20 píxeles entre la imagen y el título */
+    font-size: 48px; /* Establece el tamaño de la fuente como 48 píxeles */
+    color: #FAE05C; /* Establece el color del texto como #FAE05C */
+    font-family: Cambria; /* Establece la fuente del texto como Cambria */
+  }
+  .espacio6 { /*Clase para dar espacio entre elementos*/
+    margin-bottom: 10px;  /* Establece un margen inferior de 3 píxeles */
+}
+.espacio7 { /*Clase para dar espacio entre elementos*/
+    margin-bottom: 70px; /* Establece un margen inferior de 70 píxeles */
+}
+
+/*Texto*/
+.drogas { /* Estilos para elementos con clase "drogas" */
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor3 { /* Estilos para elementos con clase "contenedor3" */
+    display: flex; /* Apila los elementos verticalmente */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos en el eje principal */
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  }
+  .contenedor3 h1{  /* Estilos para los elementos <h1> dentro de elementos con clase "contenedor3" */
+    color: #FAE05C; /* Establece el color del texto como #FAE05C */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .texto2 h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "texto2" */
+    font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */ 
+    color: #FAE05C; /* Establece el color del texto como #FAE05C */
+  }
+  .texto2 { /* Estilos para elementos con clase "texto2" */
+    margin-bottom: 10px; /* Establece un espacio inferior de 10 píxeles para separar el texto de otros elementos */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+  }
+  .titulo2, .parrafo2 { /* Estilos para elementos con clase "titulo2" y "parrafo2" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo2 { /* Estilos para elementos con clase "parrafo2" */
+    margin-top: 10px; /* Establece un espacio superior de 10 píxeles para separar el párrafo de otros elementos */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  
+  /*Tabla de tipos de drogas*/
+  .table-container { /* Estilos para elementos con clase "table-container" */
+    display: flex; /* Utiliza un contenedor flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+    margin-bottom: 20px; /* Establece un espacio inferior de 20 píxeles */
+  }
+  table { /* Estilos para elementos <table> */
+    width: 90%; /* Establece el ancho de la tabla al 90% del contenedor padre */
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes en una sola línea */
+  }
+  th, td { /* Estilos para elementos <th> y <td> dentro de tablas */
+    border: 1px solid white; /* Establece un borde de 1 píxel sólido blanco */
+    padding: 10px; /* Establece un espacio interno de 10 píxeles */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  th { /* Estilos para elementos <th> (celdas de encabezado) */
+    background-color: #333; /* Establece el color de fondo como #333 (gris oscuro) */
+    color: white; /* Establece el color del texto como blanco */
+  }
+
+
+  /*Seccion de adicciones*/
+  .adiccion { /* Estilos para elementos con clase "adiccion" */
+    display: flex; /* Utiliza un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+  }
+  .contenedor4 { /* Estilos para elementos con clase "contenedor4" */
+    display: flex; /* Utiliza un contenedor flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  }
+  .texto4 h2{ /* Estilos para elementos <h2> dentro de elementos con clase "texto4" */
+    font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+    color: #FAE05C; /* Establece el color del texto como #C9F197 */
+  }
+  .texto4 { /* Estilos para elementos con clase "texto4" */
+    margin-bottom: 10px; /* Establece un espacio inferior de 10 píxeles para separar el texto de otros elementos */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px;  /* Establece el tamaño de la fuente como 24 píxeles */
+ }
+ .texto4 h3{ /* Estilos para elementos <h3> dentro de elementos con clase "texto4" */
+    font-size: 40px; /* Establece el tamaño de la fuente como 40 píxeles */
+    color: #FAE05C; /* Establece el color del texto como #C9F197 */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .titulo4, .parrafo4 { /* Estilos para elementos con clases "titulo4" y "parrafo4" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo4 {
+    margin-top: 10px; /* Espacio superior al párrafo */
+  }
+  .espacioulli { /* Estilos para elementos con clase "espacioulli" */
+    margin-bottom: 11px; /* Establece un margen inferior de 11 píxeles */
+}
+ol li{ /* Estilos para elementos <li> dentro de elementos <ol> */
+  font-size: 29px; /* Establece el tamaño de la fuente como 29 píxeles */
+  font-family: Cambria; /* Establece la fuente como Cambria */
+}
+.video2 { /* Estilos para elementos con clase "video2" */
+    border-radius: 8px; /* Establece bordes redondeados con un radio de 8 píxeles */
+    width: 700px; /* Establece el ancho del elemento como 700 píxeles */
+    height: 400px; /* Establece la altura del elemento como 400 píxeles */
+    display: block; /* Asegura que el elemento sea de tipo bloque */
+    margin: 0 auto; /* Centra horizontalmente el elemento */
+    
+  }
+  .espacio-video{ /* Estilos para elementos con clase "espacio-video" */
+    margin-bottom: 35px; /* Establece un margen inferior de 35 píxeles */
+  }
+  .imagen-adiccion { /* Estilos para elementos con clase "imagen-adiccion" */
+    display: block; /* Asegura que la imagen sea de tipo bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+/*Autor*/
+
+.autor p{ /* Estilos para elementos <p> dentro de elementos con clase "autor" */
+    font-size: 23px; /* Establece el tamaño de la fuente como 23 píxeles */
+    font-style: italic; /* Establece el estilo de la fuente como itálica */
+    margin: 0 0 .75rem; /* Establece los márgenes superior e inferior como 0, y el margen derecho e izquierdo como 0.75rem */
+    color: white; /* Establece el color del texto como blanco */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.nombre-autor p{ /* Estilos para elementos <p> dentro de elementos con clase "nombre-autor" */
+    font-size: 20.5px; /* Establece el tamaño de la fuente como 20.5 píxeles */
+    color: white; /* Establece el color del texto como blanco */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+.nombre-autor p2{ /* Estilos para elementos <p> dentro de elementos con clase "nombre-autor p2" */
+    font-size: 20.5px; /* Establece el tamaño de la fuente como 20.5 píxeles */
+    color: rgb(152, 152, 207); /* Establece el color del texto como rgb(152, 152, 207) */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+
+
+/*---------------------------------------------------------Control de adicciones------------------------------------------------------*/
+.control { /* Estilos para elementos con clase "adiccion" */
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el contenido del contenedor */
+}
+.contenedor-control { /* Estilos para elementos con clase "contenedor4" */
+  display: flex; /* Utiliza un contenedor flexible */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos */
+  max-width: 800px; /* Establece un ancho máximo para el contenedor */
+}
+.texto-control h2{ /* Estilos para elementos <h2> dentro de elementos con clase "texto4" */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #FAE05C; /* Establece el color del texto como #C9F197 */
+}
+.texto-control { /* Estilos para elementos con clase "texto4" */
+  margin-bottom: 10px; /* Establece un espacio inferior de 10 píxeles para separar el texto de otros elementos */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px;  /* Establece el tamaño de la fuente como 24 píxeles */
+}
+.texto-control h3{ /* Estilos para elementos <h3> dentro de elementos con clase "texto4" */
+  font-size: 40px; /* Establece el tamaño de la fuente como 40 píxeles */
+  color: #FAE05C; /* Establece el color del texto como #C9F197 */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+.titulo-control { /* Estilos para elementos con clases "titulo4" y "parrafo4" */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+.parrafo-control {
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Times New Roman;
+  color: #dac146;
+}
+.parrafo-control-center{
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: center;
+  font-size: 35px;
+  font-family: Times New Roman;
+  font-weight: bold;
+  color: #dac146;
+}
+.parrafocontrol-text{
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial;
+}
+.espaciocontrol {
+  margin-bottom: 65px; /* Ajusta el espacio inferior 25px */
+}
+.espaciocontrolul {
+  margin-bottom: 35px; /* Ajusta el espacio inferior 25px */
+}
+.espacioulli { /* Estilos para elementos con clase "espacioulli" */
+  margin-bottom: 11px; /* Establece un margen inferior de 11 píxeles */
+}
+ol li{ /* Estilos para elementos <li> dentro de elementos <ol> */
+font-size: 29px; /* Establece el tamaño de la fuente como 29 píxeles */
+font-family: Cambria; /* Establece la fuente como Cambria */
+}
+
+.imagen-control { /* Estilos para elementos con clase "imagen-adiccion" */
+  display: block; /* Asegura que la imagen sea de tipo bloque */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+  width: 580px;
+  height: 350px;
+}
+.javatexto{
+  display: flex; /* Utilizar un contenedor flexible */
+  flex-direction: column; /* Mostrar los elementos hijos en una columna */
+  margin-bottom: 10px; /* Establecer un margen inferior de 10 píxeles */
+}
+.javatexto h1{
+  font-size: 40px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #FAE05C; /* Establece el color del texto como #C9F197 */
+  text-align: center;
+}
+.buttonjavaelement{
+  display: flex; /* Utilizar un contenedor flexible */
+  justify-content: center; /* Centrar los botones horizontalmente */
+  margin-top: 10px; /* Agregar espacio entre el último input y los botones */
+}
+.button-javatexto{
+  background-color: #8f8560; /* Establece el color de fondo del botón como #9563BA */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+  width: 200px;
+  
+}
+.button-javatexto:hover{
+background-color: #423813;
+}
+
+
+/*---------------------------------------------------------------seccion de salud mental-----------------------------------------*/
+.salud { /* Estilos para elementos con clase "salud" */
+    display: flex; /* Hace que el elemento sea un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente el contenido */
+  }
+  .contenedor5 { /* Estilos para elementos con clase "contenedor5" */
+    display: flex; /* Hace que el contenedor sea flexible */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+    max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+  }
+  .texto5 h2{ /* Estilos para elementos <h2> dentro de elementos con clase "texto5" */
+    font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+    color: #e63731; /* Establece el color del texto como #e63731 */
+  }
+  .texto5 {
+    margin-bottom: 10px; /* Establece un espacio de 10 píxeles entre el elemento y el elemento siguiente */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+  }
+  .titulo5, .parrafo5 { /* Estilos para elementos con clases "titulo5" y "parrafo5" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo5 { /* Estilos para elementos con clase "parrafo5" */
+    margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  }
+  .texto5 h4{ /* Estilos para elementos <h4> dentro de elementos con clase "texto5" */
+    font-size: 43px; /* Establece el tamaño de la fuente como 43 píxeles */
+    color: #e63731; /* Establece el color del texto como #e63731 */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  ul li{ /* Estilos para elementos <li> dentro de elementos <ul> */
+    font-size: 23px; /* Establece el tamaño de la fuente como 23 píxeles */
+    font-family: Cambria; /* Establece la familia de fuentes como Cambria */
+    margin-bottom: 9px; /* Establece un margen inferior de 9 píxeles */
+  }
+  .img-salud { /* Estilos para elementos con clase "img-salud" */
+    width: 350px; /* Establece el ancho de la imagen como 350 píxeles */
+    height: 350px; /* Establece la altura de la imagen como 350 píxeles */  
+    display: block; /* Asegura que la imagen sea de tipo bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+
+/*--------------------------------------------------------MANEJO DE EMOCIONES----------------------------------------------------------*/
+.emocion { /* Estilos para elementos con clase "salud" */
+  display: flex; /* Hace que el elemento sea un contenedor flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
+}
+.contenedoremo { /* Estilos para elementos con clase "contenedor5" */
+  display: flex; /* Hace que el contenedor sea flexible */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos */
+  max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+}
+.textoemo h2{ /* Estilos para elementos <h2> dentro de elementos con clase "texto5" */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  color: #bb7c65; /* Establece el color del texto como #e63731 */
+}
+.espacioemo {
+  margin-bottom: 65px; /* Ajusta el espacio inferior 25px */
+}
+.espacioemoul {
+  margin-bottom: 35px; /* Ajusta el espacio inferior 25px */
+}
+.textoemo {
+  margin-bottom: 10px; /* Establece un espacio de 10 píxeles entre el elemento y el elemento siguiente */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de la fuente como 24 píxeles */
+}
+.tituloemo { /* Estilos para elementos con clases "titulo5" y "parrafo5" */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+.parrafoemo-center { /* Estilos para elementos con clase "parrafo5" */
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: center;
+  font-size: 33px;
+  font-family: Times New Roman;
+  color: #b18473;
+}
+.parrafoemo-text{
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: left;
+  font-size: 25px;
+  font-family: Arial;
+}
+.parrafoemo1 { /* Estilos para elementos con clase "parrafo5" */
+  margin-top: 10px; /* Establece un espacio superior de 10 píxeles */
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Times New Roman;
+  color: #b18473;
+}
+.bold{
+  font-weight: bold;
+  font-size: 25px;
+}
+.textoemo h4{ /* Estilos para elementos <h4> dentro de elementos con clase "texto5" */
+  font-size: 43px; /* Establece el tamaño de la fuente como 43 píxeles */
+  color: #b19b93; /* Establece el color del texto como #e63731 */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+ul li{ /* Estilos para elementos <li> dentro de elementos <ul> */
+  font-size: 23px; /* Establece el tamaño de la fuente como 23 píxeles */
+  font-family: Arial; /* Establece la familia de fuentes como Cambria */
+  margin-bottom: 9px; /* Establece un margen inferior de 9 píxeles */
+}
+.img-emo { /* Estilos para elementos con clase "img-salud" */
+  width: 650px; /* Establece el ancho de la imagen como 350 píxeles */
+  height: 400px; /* Establece la altura de la imagen como 350 píxeles */  
+  display: block; /* Asegura que la imagen sea de tipo bloque */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+
+
+/*HR*/
+hr { /* Estilos para elementos <hr> */
+    border: none; /* Elimina el borde predeterminado */
+    height: 2px; /* Establece la altura del hr como 2 píxeles */
+    background-color: rgb(151, 151, 151); /* Cambia el color de fondo del hr */
+    box-shadow: 0 4px 6px rgba(121, 121, 121, 0.959); /* Agrega una sombra */
+  }
+
+
+  /*Seccion de prevencion*/
+  .prevencion { /* Estilos para elementos con clase "prevencion" */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los elementos secundarios */
+  }
+  .contenedor6 { /* Estilos para elementos con clase "contenedor6" */
+    display: flex; /* Estilos para elementos con clase "contenedor6" */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos secundarios */
+    max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+  }
+  .texto6 h2{ /* Estilos para elementos con clase "texto6" y elementos <h2> dentro de ellos */
+    font-size: 55.6px; /* Establece el tamaño de fuente del elemento <h2> como 55.6 píxeles */
+    color: #FAE05C; /* Establece el color del texto del elemento <h2> como #8e60eb */
+  }
+  .texto6 { /* Estilos para elementos con clase "texto6" */
+    margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px; /* Establece el tamaño de fuente como 24 píxeles */
+  }
+ .texto6 h4{ /* Estilos para elementos <h4> dentro de elementos con clase "texto6" */
+    color: #FAE05C; /* Establece el color del texto del elemento <h4> como #bf8fdb */
+    font-size: 40px; /* Establece el tamaño de fuente del elemento <h4> como 40 píxeles */
+    text-align: center; /* Centra horizontalmente el texto del elemento <h4> */
+  }
+  .titulo6, .parrafo6 { /* Estilos para elementos con clases "titulo6" y "parrafo6" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo6 { /* Estilos para elementos con clase "parrafo6" */
+    margin-top: 10px; /* Establece un margen superior de 10 píxeles */
+  }
+  .img-prevencion { /* Estilos para elementos con clase "img-prevencion" */
+  width: 450px; /* Establece el ancho de la imagen en 450 píxeles */
+  height: 340px; /* Establece la altura de la imagen en 340 píxeles */ 
+  display: block; /* Asegura que la imagen sea de tipo bloque */
+  margin: 0 auto; /* Centra horizontalmente la imagen */
+}
+.prevencion a{ /* Estilos para elementos <a> dentro de elementos con clase "prevencion" */
+  font-size: 18px; /* Establece el tamaño de la fuente en 18 píxeles */
+  font-family: arial; /* Establece la familia de fuentes como Arial */
+  color: #7ba4d3e3; /* Establece el color del texto */
+  text-align: center; /* Centra horizontalmente el texto */
+  display: block; /* Convierte los enlaces en bloques */
+  padding: 10px 8px; /* Añade relleno alrededor del texto del enlace */
+}
+.prevencion h3{ /* Estilos para elementos <h3> dentro de elementos con clase "prevencion" */
+  text-align: center; /* Centra horizontalmente el texto */
+  font-size: 24px; /* Establece el tamaño de la fuente en 24 píxeles */
+  color: #dac146; /* Establece el color del texto */
+  font-family: Tahoma; /* Establece la familia de fuentes como Tahoma */
+}
+ol li{ /* Estilos para elementos <li> dentro de listas ordenadas (<ol>) */
+  font-size: 25px; /* Establece el tamaño de la fuente en 25 píxeles */
+  font-family: Cambria; /* Establece la familia de fuentes como Cambria */
+}
+
+
+/*Seccion de importancia*/
+.importancia { /* Estilos para la sección con clase "importancia" */
+    display: flex; /* Usa un contenedor flexible para los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
+  }
+  .contenedor7 { /* Estilos para elementos dentro de elementos con clase "contenedor7" */
+    display: flex; /* Usa un contenedor flexible para los elementos hijos */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos hijos dentro del contenedor */
+    max-width: 800px; /* Establece un ancho máximo para el contenedor */
+  }
+  .contenedor7 h1{  /* Estilos para elementos <h1> dentro de elementos con clase "contenedor7" */
+    color: #CAF7FF; /* Cambia el color del texto a un tono de azul claro */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .texto7 h2{ /* Estilos para elementos <h2> dentro de elementos con clase "texto7" */
+    font-size: 55.6px; /* Establece el tamaño de la fuente */
+    color: #CAF7FF; /* Cambia el color del texto a un tono de azul claro */
+  }
+  .texto7 { /* Estilos para elementos dentro de elementos con clase "texto7" */
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px */
+    color: white; /* Establece el color del texto en blanco */
+    font-size: 24px; /* Establece el tamaño de la fuente en 24px */
+ }
+  .titulo7, .parrafo7 { /* Estilos para elementos con clases "titulo7" y "parrafo7" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo7 { /* Estilos para elementos con clase "parrafo7" */
+    margin-top: 10px; /* Espacio superior al párrafo */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  
+  /*Tabla de tipos de drogas*/
+  .table-container { /* Estilos para elementos con clase "table-container" */
+    display: flex; /* Establece el contenedor como un flexbox */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos secundarios */
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px */
+  }
+  .table-container p{  /* Estilos para elementos <p> dentro de elementos con clase "table-container" */
+    text-align: center; /* Centra horizontalmente el texto dentro de los párrafos */
+  }
+  table { /* Estilos para elementos <table> */
+    width: 90%; /* Establece que el ancho de la tabla sea el 90% del ancho de su contenedor */
+    border-collapse: collapse; /* Combina los bordes de las celdas adyacentes en una sola línea */
+  }
+  th, td { /* Estilos para elementos <th> y <td> */
+    border: 1px solid white; /* Establece un borde sólido de 1 píxel de grosor y color blanco */
+    padding: 10px; /* Establece un relleno interno de 10 píxeles */
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  th { /* Estilos para elementos <th> */
+    background-color: #333; /* Establece el color de fondo como gris oscuro (#333) */
+    color: white; /* Establece el color del texto como blanco */
+  }
+
+  /*-------------TEST----------------*/
+  .test { /* Estilos para elementos con clase "prevencion" */
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los elementos secundarios */
+  }
+  .contenedor-test { /* Estilos para elementos con clase "contenedor6" */
+    display: flex; /* Estilos para elementos con clase "contenedor6" */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos secundarios */
+    max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+  }
+  .texto-test h2{ /* Estilos para elementos con clase "texto6" y elementos <h2> dentro de ellos */
+    font-size: 55.6px; /* Establece el tamaño de fuente del elemento <h2> como 55.6 píxeles */
+    color: #e4e4a9; /* Establece el color del texto del elemento <h2> como #8e60eb */
+  }
+  .texto-test { /* Estilos para elementos con clase "texto6" */
+    margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+    color: white; /* Establece el color del texto como blanco */
+    font-size: 24px; /* Establece el tamaño de fuente como 24 píxeles */
+  }
+ .texto-test h4{ /* Estilos para elementos <h4> dentro de elementos con clase "texto6" */
+    color: #e4e4a9; /* Establece el color del texto del elemento <h4> como #bf8fdb */
+    font-size: 40px; /* Establece el tamaño de fuente del elemento <h4> como 40 píxeles */
+    text-align: center; /* Centra horizontalmente el texto del elemento <h4> */
+  }
+  .titulo-test, .parrafo-test { /* Estilos para elementos con clases "titulo6" y "parrafo6" */
+    text-align: center; /* Centra horizontalmente el texto */
+  }
+  .parrafo-test { /* Estilos para elementos con clase "parrafo6" */
+    margin-top: 10px; /* Establece un margen superior de 10 píxeles */
+  }
+  
+.test a{ /* Estilos para elementos <a> dentro de elementos con clase "prevencion" */
+  font-size: 20px; /* Establece el tamaño de la fuente en 18 píxeles */
+  font-family: arial; /* Establece la familia de fuentes como Arial */
+  color: #7ba4d3e3; /* Establece el color del texto */
+}
+.img-adic, .img-salud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Ajusta el margen según tu diseño */
+}
+p{
+  text-align: center;
+}
+
+
+  /*-----------------------------------------------------------------------footer-------------------------------------------------------------------------*/
+  footer { /* Estilos para elementos <footer> */
+    display: flex; /* Establece el contenedor como un flexbox */
+    flex-direction: row; /* Establece la dirección de los elementos secundarios como fila */
+    justify-content: space-around; /* Distribuye el espacio disponible alrededor de los elementos secundarios */
+    align-items: center; /* Centra verticalmente los elementos secundarios */
+    background-color: #17181a; /* Establece el color de fondo como gris oscuro (#17181a) */
+  }
+  footer div { /* Estilos para elementos <div> dentro de elementos <footer> */
+    width: 25%; /* Para que cada div ocupe el 25% del ancho del footer */
+    text-align: center; /* Centra el contenido dentro de cada div */
+  }
+
+  /*--------------------------------------------------------------------DIV CONTACTO----------------------------------------------------*/
+  footer .contacto{ /* Estilos para elementos con la clase "contacto" dentro de un <footer> */
+    text-align: center; /* Centra el contenido del elemento */
+    border-radius: 9px; /* Establece bordes redondeados con un radio de 9 píxeles */
+    padding: 5px; /* Añade un relleno interno de 5 píxeles */
+    margin-bottom: 20px; /* Agrega un margen inferior de 20 píxeles */
+  }
+  .contacto h2{ /* Estilos para elementos <h2> dentro de un elemento con la clase "contacto" */
+    font-size: 30px; /* Establece el tamaño de fuente como 30px */
+    color: rgb(250, 234, 141); /* Establece el color del texto */
+  }
+  .contacto h6{ /* Estilos para elementos <h6> dentro de un elemento con la clase "contacto" */
+   font-size: 24px; /* Establece el tamaño de fuente como 24px */
+    color: white; /* Establece el color del texto */
+  }
+  .contacto a{ /* Estilos para elementos <a> dentro de un elemento con la clase "contacto" */
+    font-size: 20px; /* Establece el tamaño de fuente como 20px */
+    color: white; /* Establece el color del texto */
+ }
+  .contacto p{ /* Estilos para elementos <p> dentro de un elemento con la clase "contacto" */
+    font-size: 20px; /* Establece el tamaño de fuente como 20px */
+    color: white; /* Establece el color del texto */
+  }
+  .espaciofooter{ /* Estilos para elementos con la clase "espaciofooter" */
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px */
+  }
+
+  /*----------------------------------------------------------------------DIV ACERCA--------------------------------------------------------------*/
+  footer .acerca{ /* Estilos para elementos con la clase "acerca" dentro de un <footer> */
+    text-align: center; /* Centra el contenido horizontalmente */
+    border-radius: 9px; /* Establece bordes redondeados con un radio de 9 píxeles */
+    padding: 5px; /* Añade un relleno interno de 5 píxeles */
+    margin-bottom: 20px; /* Agrega un margen inferior de 20 píxeles */
+    margin-left: 37px; /* Agrega un margen izquierdo de 37 píxeles */
+  }
+  .acerca h2{ /* Estilos para elementos <h2> dentro de elementos con la clase "acerca" */
+    font-size: 27px; /* Establece el tamaño de fuente como 27px */
+    color: rgb(185, 255, 171); /* Establece el color del texto */
+  }
+  .acerca h6{ /* Estilos para elementos <h6> dentro de elementos con la clase "acerca" */
+    font-size: 13px; /* Establece el tamaño de fuente como 13px */
+    color: white; /* Establece el color del texto */
+    font-family: Arial; /* Establece la fuente del texto */
+  }
+  .espacio-textacerca{ /* Estilos para elementos con la clase "espacio-textacerca" */
+    margin-bottom: 4px; /* Agrega un margen inferior de 4 píxeles */
+  }
+  .acerca p{ /* Estilos para elementos <p> dentro de elementos con la clase "acerca" */
+    font-size: 25px; /* Establece el tamaño de fuente como 25px */
+    font-family: Times New Roman; /* Establece la fuente del texto */
+    color: #e67af5; /* Establece el color del texto */
+  }
+  .acerca ol li{ /* Estilos para elementos de lista <li> dentro de elementos <ol> dentro de elementos con la clase "acerca" */
+   font-size: 15px; /* Establece el tamaño de fuente como 15px */
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: Arial; /* Establece la fuente del texto */
+  }
+
+  /*---------------------------------------------------ICONOS---------------------------------------------------------*/
+  footer a{ /* Estilos para enlaces dentro de un footer */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    gap: 20px; /* Establece un espacio entre los elementos secundarios */
+  }
+  .redes h2{ /* Estilos para el encabezado dentro de un contenedor de redes sociales */
+    font-size: 32px; /* Establece el tamaño de la fuente como 32px */
+    color: rgb(255, 209, 109); /* Establece el color del texto */
+  }
+  footer .face{ /* Estilos para el icono de Facebook */
+    color: rgb(7, 111, 248); /* Establece el color del icono */
+    font-size: 38px; /* Establece el tamaño de la fuente como 38px */
+  }
+  footer .insta{ /* Estilos para el icono de Instagram */
+  color: #e66b82; /* Establece el color del icono */
+  font-size: 38px; /* Establece el tamaño de la fuente como 38px */
+}
+
+/*----------------------------------------------------------------------Derechos------------------------------------------------------------*/
+footer2{ /* Estilos para el segundo footer */
+  padding-top: 20px; /* Agrega espacio arriba */
+  padding-bottom: 20px; /* Agrega espacio abajo */
+  background-color: #17181a; /* Establece el color de fondo */
+}
+footer2 .derechos{ /* Estilos para el texto de derechos de autor dentro del segundo footer */
+  background-color: #17181a; /* Establece el color de fondo */
+  font-size: 25px; /* Establece el tamaño de la fuente como 25px */
+  color: white; /* Establece el color del texto */
+  font-family: Cambria; /* Establece la familia de fuentes */
+  text-align: center; /* Centra horizontalmente el texto */
+  padding-top: 28px; /* Agrega espacio arriba */
+  padding-bottom: 40px; /* Agrega espacio abajo */
+}
+
+
+
+
+
+/*---------------------------------------------------------------Politicas----------------------------------------------------------*/
+.espacio1 { /* Espacio entre elementos con clase "espacio1" */
+  margin-bottom: 25px; /* Ajusta el espacio inferior 25px */
+}
+.poli h1{ /* Estilos para el encabezado h1 dentro de un elemento con clase "poli" */
+  font-size: 43px; /* Tamaño de fuente */
+  color: rgb(245, 169, 98); /* Color del texto */
+  font-family: Times New Roman; /* Familia de fuentes */
+  text-align: center; /* Alineación del texto */
+}
+.espacio2 { /* Espacio entre elementos con clase "espacio2" */
+  margin-bottom: 25px; /* Ajusta el espacio inferior 25px */
+}
+.container-pol{ /* Estilos para el contenedor principal */
+  text-align: center; /* Alineación del texto */
+  max-width: 900px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  
+}
+.box-1{ /* Estilos para el cuadro de contenido */
+  border-radius: 5px; /* Borde redondeado */
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 20px; /* Espacio inferior */
+  background-color: #f0f0f0; /*Establece un color def ondo blanco*/
+  border-radius: 20px; /*Crea un borde en las esquinas del "box-1" */
+}
+
+.box-1 x{ /* Estilos para el elemento "x" */
+  font-size: 24px; /* Tamaño de fuente */
+  font-family: Arial; /* Tipo de fuente */
+  text-align: center; /* Alineación del texto */
+  color: rgb(0, 0, 0); /*Establece color negro al texto*/
+}
+.box-1 r{ /* Estilos para el elemento "r" */
+  font-size: 25px; /* Tamaño de fuente */
+  text-align: left; /* Alineación del texto */
+  color: rgb(0, 0, 0); /*Establece color negro al texto*/
+}
+.box-1 ul li b{ /* Estilos para elementos <li> dentro de una lista desordenada <ul> con negrita */
+  font-size: 19px; /* Tamaño de fuente */
+  font-family: Times New Roman; /* Tipo de fuente */
+  color: rgb(0, 0, 0); /*Establece color negro al texto*/
+  
+}
+.box-1 p { /* Estilos para los párrafos <p> */
+  font-size: 19px; /* Tamaño de fuente */
+  font-family: sans-serif; /* Tipo de fuente */
+  text-align: left; /* Alineación del texto */
+  color: rgb(0, 0, 0); /*Establece color negro al texto*/
+}
+
+
+/*--------------------------------------------------------------------Test1--------------------------------------------------------------*/
+
+/*Seccion del test1*/
+.test1 form  { /* Estilos para los elementos <form> */
+  max-width: 600px;/* Establecer el ancho máximo del formulario en 600 píxeles */
+  margin: auto; /* Centrar el formulario horizontalmente en su contenedor padre */
+}
+label{ /* Estilos para los elementos <label> */
+  display: block; /* Cambiar el elemento a un bloque para ocupar toda la anchura disponible */
+  background-color: #d2b48c; /* Establecer el color de fondo del elemento como #d2b48c */
+  font-size: 21px; /* Establecer el tamaño de la fuente del texto del label a 21 píxeles */
+}
+input{ /* Estilos para los elementos <input> */
+  background-color:#ffffff; /* Establecer el color de fondo del input como blanco */
+  color: black; /* Establecer el color del texto como negro */
+  font-size: 16px; /* Establecer el tamaño de la fuente del texto del input a 16 píxeles */
+  padding: 5px; /* Establecer un relleno de 5 píxeles dentro del input o textarea */
+  border: 1px solid #cccccc; /* Establecer un borde sólido de 1 píxel con color #cccccc alrededor del input o textarea */
+  border-radius: 5px; /* Establecer bordes redondeados para el input o textarea */
+}
+
+
+/* Estilos para etiquetas con clases específicas */
+.label-nombre-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-nombre" */
+}
+.label-edad-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-edad" */
+}
+.label-genero-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-genero" */
+}
+.label-pregunta1-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta1" */
+}
+.label-pregunta2-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta2" */
+}
+.label-pregunta3-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta3" */
+}
+.label-pregunta4-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta4" */
+}
+.label-pregunta5-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta5" */
+}
+.label-pregunta6-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta7-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta8-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta9-test1 {
+  background-color: #ffb193; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta10-test1 {
+  background-color: #f38458; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+
+
+.form-group-test1 { /* Estilos para los elementos con clase "form-group" */
+  display: flex; /* Utilizar un contenedor flexible */
+  flex-direction: column; /* Mostrar los elementos hijos en una columna */
+  margin-bottom: 10px; /* Establecer un margen inferior de 10 píxeles */
+}
+
+.form-group-test1 label { /* Estilos para los elementos <label> dentro de elementos con clase "form-group" */
+  margin-bottom: 4px; /* Establecer un margen inferior de 4 píxeles para separar los labels */
+  border-radius: 5px; /* Establecer bordes redondeados para los labels */
+}
+
+/* Estilos para los elementos <input> y <textarea> dentro de elementos con clase "form-group" */
+
+.button-container-test1 {
+  display: flex; /* Utilizar un contenedor flexible */
+  justify-content: center; /* Centrar los botones horizontalmente */
+  margin-top: 10px; /* Agregar espacio entre el último input y los botones */
+}
+
+/*Seccion de el checkbox*/
+.condiciones1-test1 label { /* Estilos para los elementos <label> dentro de elementos con clase "condiciones1" */
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+  background-color: #b48978;
+}
+
+.condiciones1-test1 input[type="checkbox"] { /* Estilos para los elementos <input> de tipo "checkbox" dentro de elementos con clase "condiciones1" */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles para ajustar el espacio entre el checkbox y el texto */
+  border-radius: 5px; /* Establece bordes redondeados para el checkbox */
+}
+
+.condiciones1-test1 span { /* Estilos para los elementos <span> dentro de elementos con clase "condiciones1" */
+  color: #000000; /* Establece el color del texto como negro (#000000) */
+}
+
+
+
+/*Seccion de botones*/
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" */
+.button-container-test1 input[type="submit"],
+.button-container-test1 input[type="reset"] { 
+  background-color: #f88557; /* Establece el color de fondo del botón como #9563BA */
+  color: rgb(255, 255, 255); /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+  
+}
+
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" al pasar el cursor sobre ellos */
+.button-container-test1 input[type="submit"]:hover,
+.button-container-test1 input[type="reset"]:hover {
+  background-color: #c55d34; /* Establece el color de fondo del botón como #BB85E3 al pasar el cursor sobre él */
+}
+
+.espacio1 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 25px; /* Establece un margen inferior de 25 píxeles */
+}
+
+.espacio2 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 55px; /* Establece un margen inferior de 55 píxeles */
+}
+
+select { /* Estilos para los elementos <select> */
+  font-size: 17px; /* Establece el tamaño de la fuente como 17 píxeles */
+  border-radius: 5px; /* Establece bordes redondeados para el elemento <select> */
+}
+
+
+.espaciodatosp{ /*Clase para dar espacio entre elementos*/
+  margin-bottom: 40px; /* Establece un margen inferior de 40 píxeles */
+}
+
+.espacio3 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 17px; /* Establece un margen inferior de 17 píxeles */
+}
+
+.espacio4 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 60px; /* Establece un margen inferior de 60 píxeles */
+}
+
+
+.espacio5 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 18px; /* Establece un margen inferior de 18 píxeles */
+}
+
+
+.formulario-test1 h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "formulario" */
+  color: #e47a60; /* Establece el color del texto como #e47a60 (un tono de naranja) */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+}
+
+/*--------------------------------------------------------------------Test2--------------------------------------------------------------*/
+
+/*Seccion del test2*/
+.test2 form  { /* Estilos para los elementos <form> */
+  max-width: 600px;/* Establecer el ancho máximo del formulario en 600 píxeles */
+  margin: auto; /* Centrar el formulario horizontalmente en su contenedor padre */
+}
+label{ /* Estilos para los elementos <label> */
+  display: block; /* Cambiar el elemento a un bloque para ocupar toda la anchura disponible */
+  background-color: #d2b48c; /* Establecer el color de fondo del elemento como #d2b48c */
+  font-size: 21px; /* Establecer el tamaño de la fuente del texto del label a 21 píxeles */
+}
+input{ /* Estilos para los elementos <input> */
+  background-color:#ffffff; /* Establecer el color de fondo del input como blanco */
+  color: black; /* Establecer el color del texto como negro */
+  font-size: 16px; /* Establecer el tamaño de la fuente del texto del input a 16 píxeles */
+  padding: 5px; /* Establecer un relleno de 5 píxeles dentro del input o textarea */
+  border: 1px solid #cccccc; /* Establecer un borde sólido de 1 píxel con color #cccccc alrededor del input o textarea */
+  border-radius: 5px; /* Establecer bordes redondeados para el input o textarea */
+}
+
+
+/* Estilos para etiquetas con clases específicas */
+.label-nombre-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-nombre" */
+}
+.label-edad-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-edad" */
+}
+.label-genero-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-genero" */
+}
+.label-pregunta1-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta1" */
+}
+.label-pregunta2-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta2" */
+}
+.label-pregunta3-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta3" */
+}
+.label-pregunta4-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta4" */
+}
+.label-pregunta5-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta5" */
+}
+.label-pregunta6-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta7-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta8-test2 {
+  background-color: #6fb2c7 /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta9-test2 {
+  background-color: #b2dcff; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+.label-pregunta10-test2 {
+  background-color: #6fb2c7; /* Establecer el color de fondo de la etiqueta con clase "label-pregunta6" */
+}
+
+
+.form-group-test2 { /* Estilos para los elementos con clase "form-group" */
+  display: flex; /* Utilizar un contenedor flexible */
+  flex-direction: column; /* Mostrar los elementos hijos en una columna */
+  margin-bottom: 10px; /* Establecer un margen inferior de 10 píxeles */
+}
+
+.form-group-test2 label { /* Estilos para los elementos <label> dentro de elementos con clase "form-group" */
+  margin-bottom: 4px; /* Establecer un margen inferior de 4 píxeles para separar los labels */
+  border-radius: 5px; /* Establecer bordes redondeados para los labels */
+}
+
+/* Estilos para los elementos <input> y <textarea> dentro de elementos con clase "form-group" */
+
+.button-container-test2 {
+  display: flex; /* Utilizar un contenedor flexible */
+  justify-content: center; /* Centrar los botones horizontalmente */
+  margin-top: 10px; /* Agregar espacio entre el último input y los botones */
+}
+
+/*Seccion de el checkbox*/
+.condiciones1-test2 label { /* Estilos para los elementos <label> dentro de elementos con clase "condiciones1" */
+  display: flex; /* Utilizar un contenedor flexible */
+  align-items: center; /* Alinear los elementos verticalmente al centro */
+  background-color: #97c8d4;
+}
+
+.condiciones1-test2 input[type="checkbox"] { /* Estilos para los elementos <input> de tipo "checkbox" dentro de elementos con clase "condiciones1" */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles para ajustar el espacio entre el checkbox y el texto */
+  border-radius: 5px; /* Establece bordes redondeados para el checkbox */
+}
+
+.condiciones1-test2 span { /* Estilos para los elementos <span> dentro de elementos con clase "condiciones1" */
+  color: #000000; /* Establece el color del texto como negro (#000000) */
+}
+
+
+
+/*Seccion de botones*/
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" */
+.button-container-test2 input[type="submit"],
+.button-container-test2 input[type="reset"] { 
+  background-color: #2e5769; /* Establece el color de fondo del botón como #9563BA */
+  color: rgb(255, 255, 255); /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+  
+}
+
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" al pasar el cursor sobre ellos */
+.button-container-test2 input[type="submit"]:hover,
+.button-container-test2 input[type="reset"]:hover {
+  background-color: #447785; /* Establece el color de fondo del botón como #BB85E3 al pasar el cursor sobre él */
+}
+
+.espacio1 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 25px; /* Establece un margen inferior de 25 píxeles */
+}
+
+.espacio2 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 55px; /* Establece un margen inferior de 55 píxeles */
+}
+
+select { /* Estilos para los elementos <select> */
+  font-size: 17px; /* Establece el tamaño de la fuente como 17 píxeles */
+  border-radius: 5px; /* Establece bordes redondeados para el elemento <select> */
+}
+
+
+.espaciodatosp{ /*Clase para dar espacio entre elementos*/
+  margin-bottom: 40px; /* Establece un margen inferior de 40 píxeles */
+}
+
+.espacio3 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 17px; /* Establece un margen inferior de 17 píxeles */
+}
+
+.espacio4 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 60px; /* Establece un margen inferior de 60 píxeles */
+}
+
+
+.espacio5 { /*Clase para dar espacio entre elementos*/
+  margin-bottom: 18px; /* Establece un margen inferior de 18 píxeles */
+}
+
+
+.formulario-test2 h2{ /* Estilos para los elementos <h2> dentro de elementos con clase "formulario" */
+  color: #e47a60; /* Establece el color del texto como #e47a60 (un tono de naranja) */
+  font-size: 55.6px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+}
+
+
+
+ /*-----------------------------------------------------------------LINK DE- DROGAS A fORMULARIO-----------------------------------------------------------------*/
+ .button-container-linktest1 {
+  text-align: center;
+ }
+ .button-container-linktest1 input[type="button"] { 
+  background-color: #dad88c; /* Establece el color de fondo del botón como #9563BA */
+  color: rgb(0, 0, 0); /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+  display: inline-block;
+  font-size: 25px;
+  width: 320px;
+  height: 50px;
+}
+
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" al pasar el cursor sobre ellos */
+.button-container-linktest1 input[type="button"]:hover {
+  background-color: #928745; /* Establece el color de fondo del botón como #BB85E3 al pasar el cursor sobre él */
+}
+
+
+.linkexamen-1 { /* Estilos para elementos con clase "prevencion" */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente los elementos secundarios */
+}
+.contenedor-examen1 { /* Estilos para elementos con clase "contenedor6" */
+  display: flex; /* Estilos para elementos con clase "contenedor6" */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos secundarios */
+  max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+}
+.texto-examen1 h2{ /* Estilos para elementos con clase "texto6" y elementos <h2> dentro de ellos */
+  font-size: 55.6px; /* Establece el tamaño de fuente del elemento <h2> como 55.6 píxeles */
+  color: #FAE05C; /* Establece el color del texto del elemento <h2> como #8e60eb */
+}
+.texto-examen1 { /* Estilos para elementos con clase "texto6" */
+  margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de fuente como 24 píxeles */
+}
+.texto-examen1 h4{ /* Estilos para elementos <h4> dentro de elementos con clase "texto6" */
+  color: #FAE05C; /* Establece el color del texto del elemento <h4> como #bf8fdb */
+  font-size: 40px; /* Establece el tamaño de fuente del elemento <h4> como 40 píxeles */
+  text-align: center; /* Centra horizontalmente el texto del elemento <h4> */
+}
+.titulo-examen1, .parrafo-examen1 { /* Estilos para elementos con clases "titulo6" y "parrafo6" */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+.parrafo-examen1 { /* Estilos para elementos con clase "parrafo6" */
+  margin-top: 10px; /* Establece un margen superior de 10 píxeles */
+}
+p{
+  font-size: 30px;
+}
+/*------------------------------------------------------------------LINK DE SALUD A FORMULARIO---------------------------------------------------------------*/
+
+
+.button-container-linktest2 {
+  text-align: center;
+ }
+ .button-container-linktest2 input[type="button"] { 
+  background-color: #b9925f; /* Establece el color de fondo del botón como #9563BA */
+  color: rgb(0, 0, 0); /* Color del texto del botón */
+  padding: 10px 20px; /* Establece el relleno del botón como 10px arriba y abajo y 20px a los lados */
+  border: none; /* Elimina el borde del botón */
+  border-radius: 5px; /* Establece bordes redondeados para el botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  margin-right: 10px; /* Establece un margen derecho de 10 píxeles entre los botones */
+  margin-bottom: 4px; /* Establece un margen inferior de 4 píxeles para separar los botones */
+  font-size: 19px; /* Establece el tamaño de la fuente del texto del botón como 19px */
+  display: inline-block;
+  font-size: 25px;
+  width: 320px;
+  height: 50px;
+}
+
+/* Estilos para los elementos <input> de tipo "submit" y "reset" dentro de elementos con clase "button-container" al pasar el cursor sobre ellos */
+.button-container-linktest2 input[type="button"]:hover {
+  background-color: #b9925f; /* Establece el color de fondo del botón como #BB85E3 al pasar el cursor sobre él */
+}
+
+
+.linkexamen-2 { /* Estilos para elementos con clase "prevencion" */
+  display: flex; /* Utiliza el modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente los elementos secundarios */
+}
+.contenedor-examen2 { /* Estilos para elementos con clase "contenedor6" */
+  display: flex; /* Estilos para elementos con clase "contenedor6" */
+  flex-direction: column; /* Apila los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente los elementos secundarios */
+  max-width: 800px; /* Establece el ancho máximo del contenedor como 800 píxeles */
+}
+.texto-examen2 h2{ /* Estilos para elementos con clase "texto6" y elementos <h2> dentro de ellos */
+  font-size: 55.6px; /* Establece el tamaño de fuente del elemento <h2> como 55.6 píxeles */
+  color: #a37353; /* Establece el color del texto del elemento <h2> como #8e60eb */
+}
+.texto-examen2 { /* Estilos para elementos con clase "texto6" */
+  margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+  color: white; /* Establece el color del texto como blanco */
+  font-size: 24px; /* Establece el tamaño de fuente como 24 píxeles */
+}
+.titulo-examen2, .parrafo-examen2 { /* Estilos para elementos con clases "titulo6" y "parrafo6" */
+  text-align: center; /* Centra horizontalmente el texto */
+}
+.parrafo-examen2 { /* Estilos para elementos con clase "parrafo6" */
+  margin-top: 10px; /* Establece un margen superior de 10 píxeles */
+}
+p{
+  font-size: 30px;
+}
+
+/*--------------------------------------------------------------------------galeria---------------------------------------------------------------------*/
+.gallery img {
+  width: 400px;
+  height: 250px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lightbox-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-slide {
+  display: none;
+  width: 100%;
+  max-width: 1200px;
+  max-height: 1500px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+/*--------------------------------------------------------------------salud recomendaciones (javascript)-------------------------------------------*/
+.javatipssalud{
+  text-align: center;
+}
+.botones-tipssalud{
+  display: flex; 
+  justify-content: center; 
+  
+}
+.javatipssalud button {
+  background-color: rgb(201, 106, 83);
+  padding: 10px;
+  border: none; 
+  font-family: unset; 
+  border-radius: 8px; 
+  align-items: center;
+  width: 150px; 
+  height: 130px; 
+  font-size: 3.6rem;
+}
+.javatipssalud button:hover {
+  background-color: rgb(219, 193, 105);
+}
+.javatipssalud h1{
+  font-size: 20px;
+  color: black;
+}
+.javatipssalud p{
+  font-size: 40px;
+  color: white;
+}
+/*--------------------------------------------------------TEST DE JAVASCRIPT*--------------------------------------------------*/
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.quiz {
+  width: 600px;
+}
+.quiz h2 {
+  color: #0066cc;
+  font-size: 2em;
+  text-align: left;
+}
+.quiz p{
+  font-family: Arial;
+  font-size: 1em;
+  text-align: left;
+}
+.advice h2 {
+  color: #0066cc;
+  font-size: 2em;
+  text-align: left;
+}
+.advice p{
+  font-family: Arial;
+  font-size: 1em;
+  text-align: left;
+}
+
+
+.question {
+  margin-bottom: 15px;
+}
+.question p{
+  font-family: Arial;
+  font-size: 1em;
+  text-align: left;
+}
+
+button {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #0d4c8b;
+}
+/*----------------------------------------------------TEST DE RESPIRACION JAVASCRIPT------------------------------------------*/
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eecf8c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.breathingbox h2 {
+  color: #0066cc;
+  font-size: 2em;
+  text-align: left;
+}
+.breathingbox p{
+  font-family: Arial;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.breathingbox button {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.breathingbox button:hover {
+  background-color: #005bb5;
+}
+
+.breathing {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+/*-------------------------------------------------------------------CHAT DE APOYO JAVASCRIPT------------------------------------------*/
+.todoelchat {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; /* Centra verticalmente */
+  flex-direction: column; /* Establece la dirección de disposición en columna */
+}
+
+#chatbox {
+  border: 1px solid #000;
+  padding: 10px;
+  width: 500px;
+  background-color: white;
+}
+
+#chatlogs {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-family: Arial;
+  text-align: left; /* Alinea el texto a la izquierda */
+  font-size: 14px; /* Establece el tamaño de la fuente más pequeño */
+}
+
+
+#chatlogs p:nth-child(odd) {
+  text-align: right; /* Alinea el texto a la izquierda */
+  font-size: 15px; /* Establece el tamaño de la fuente más pequeño */
+}
+#chatlogs p:nth-child(even) {
+  text-align: left; /* Alinea el texto del bot a la derecha */
+  font-size: 16px; /* Establece el tamaño de la fuente */
+}
+
+
+.texth1chat h1{
+  color: #e6c351; /* Establece el color del texto como #e47a60 (un tono de naranja) */
+  font-size: 55px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  text-align: center;
+}
+.texth1chat p{
+  color: #ffffff; /* Establece el color del texto como #e47a60 (un tono de naranja) */
+  font-size: 28px; /* Establece el tamaño de la fuente como 55.6 píxeles */
+  text-align: center;
+}
+
+.chatbox input[type="text"] {
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: Arial;
+  font-size: 22px;
+}
+
+.enviarmsj {
+  background-color: rgb(134, 117, 22);
+}
+.enviarmsj:hover{
+  background-color: rgb(80, 62, 5);
+}
+
+/*-----------------------------------------------------------------------DIARIO DE SENTIMIENTOS------------------------------------------------------------*/
+.diario h1 {
+  color: #f7e8e8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.diario textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 auto;
+}
+.diario button {
+  background-color: #2c642e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+.diario button:hover {
+  background-color: #45a049;
+}
+.diario h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+}
+.diario ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px; /* Aumenta el espacio entre cada registro */
+}
+.diario li {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  word-wrap: break-word;
+}
+/*-------------------------------------------------------------------COLOR DE FONDO---------------------------------------------------------*/
+.container {
+  padding: 20px;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+  float: right;
+}
+
+.dropbtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3b689b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content button {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  border: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-content button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*---------------------------------------------------------------------MENSAJE DE COOKIES------------------------------------------------------------------------*/
+/* Estilos para el popup de cookies */
+.cookie-popup {
+  display: none; /* Por defecto, oculto */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  background-color: #7a7a7a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.cookie-content {
+  text-align: center;
+}
+
+.cookie-content h2 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.cookie-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cookie-buttons button {
+  background-color: #337a35;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cookie-buttons button:hover {
+  background-color: #45a049;
+}
+
+.cookie-buttons button:nth-child(2) {
+  background-color: #942820;
+}
+
+.cookie-buttons button:nth-child(2):hover {
+  background-color: #e53935;
+}
+
+/*--------------------------------------------------------------BOTON DE REINICIAR COOKIES---------------------------------------------------------*/
+/* Estilos para el botón de cambiar preferencia de cookies */
+.reset-cookie-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9c9c9c;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  
+}
+
+.reset-cookie-button:hover {
+  background-color: #363636;
+  color: white;
+}
+/**-----------------------------------------------------------SUGERENCIAS DE CHAT DE APOYO------------------------------------------------*/
+/* Contenedor principal del chat y palabras clave */
+#chat-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc; /* Añade un borde para distinguir el área */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra para el efecto de profundidad */
+}
+
+/* Sección de chat (mensajes y entrada de usuario) */
+#chat-section {
+  flex: 3; /* Toma más espacio en el contenedor flex */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Estilo para la caja de chat */
+#chatlogs {
+  flex-grow: 1;
+  overflow-y: auto;
+  max-height: 400px; /* Ajusta la altura según necesites */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Borde para separar visualmente */
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* Entrada de usuario */
+#userInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botón de enviar mensaje */
+.enviarmsj {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Sección de palabras clave */
+#keywords {
+  flex: 1; /* Toma menos espacio que la sección de chat */
+  border-left: 2px solid #007BFF; /* Línea divisoria */
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+/* Título de palabras clave */
+#keywords h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+/* Lista de palabras clave */
+#keywords ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#keywords li {
+  margin: 5px 0;
+  color: white;
+}
+#keywords p {
+  margin: 5px 0;
+  color: white;
+}
+/*------------------------------------------------------------------------CUANTAS VECES VISITADO------------------------------------------------------*/
+.visitado p {
+  color: rgb(168, 168, 168);
+  font-size: 16px;
+  font-family: calibri;
+}
+
+/*------------------------------------------------------------------------consolas-----------------------------------------------------*/
+.fila-consolas {
+  display: flex; /* Alinea los elementos en una fila */
+  justify-content: space-between; /* Espacio uniforme entre las consolas */
+  align-items: center; /* Alinea las consolas verticalmente */
+  gap: 20px; /* Espaciado entre las consolas */
+  margin: 20px 0; /* Margen superior e inferior para separar la fila */
+  flex-wrap: wrap; /* Permite que las consolas se ajusten a una nueva línea si es necesario */
+}
+
+.consola-item {
+  text-align: center; /* Centra el contenido dentro de cada consola */
+  flex: 1 1 calc(33.33% - 20px); /* Permite que cada consola ocupe un 33.33% del espacio disponible, menos el espacio entre */
+  max-width: 300px; /* Establece un tamaño máximo para las consolas */
+  margin: 0 10px; /* Espaciado lateral */
+  box-sizing: border-box; /* Incluye el padding y border en el cálculo del ancho total */
+}
+
+.consola-item img {
+  width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */
+  height: 150px; /* Fija una altura uniforme para todas las imágenes */
+  object-fit: cover; /* Ajusta la imagen dentro del contenedor manteniendo proporciones */
+  border: 2px solid #ddd; /* Borde gris claro */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-bottom: 10px; /* Espaciado entre la imagen y el texto */
+}
+
+.nombre-consola {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff; /* Color del texto */
+}
+
+.precio-consola {
+  font-size: 1.1rem; /* Ajusta el tamaño del texto del precio */
+  color: #f8f8f8; /* Color gris claro para el precio */
+  font-weight: bold; /* Hace el precio más destacado */
+  margin-bottom: 15px; /* Espaciado entre el precio y el botón */
+}
+
+.btn-compra {
+  padding: 10px 15px;
+  background-color: #007BFF; /* Color azul */
+  color: white; /* Texto blanco */
+  border: none;
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s; /* Efecto de transición al hover */
+}
+
+.btn-compra:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para el título "CONSOLAS" */
+.espacio7 {
+  text-align: center; /* Centra el título */
+  font-size: 2rem; /* Incrementa el tamaño del texto */
+  font-family: 'Arial Black', sans-serif; /* Cambia el tipo de letra */
+  color: #ffffff; /* Color blanco */
+  margin-bottom: 20px; /* Espaciado inferior para separar el título de las consolas */
+}
+
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .fila-consolas {
+    justify-content: center; /* Centra las consolas cuando la pantalla es pequeña */
+  }
+
+  .consola-item {
+    flex: 1 1 calc(50% - 20px); /* Cada consola ocupa el 50% del ancho */
+  }
+}
+
+@media (max-width: 480px) {
+  .consola-item {
+    flex: 1 1 100%; /* Las consolas ocupan todo el ancho en pantallas más pequeñas */
+  }
+}
+
+
+/* Carrusel */
+.carrusel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px; /* Espaciado debajo del carrusel */
+}
+
+.carrusel-contenedor {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-item {
+  flex: 0 0 100%; /* Cada imagen ocupa el 100% del ancho */
+  max-height: 300px; /* Ajusta la altura máxima de las imágenes */
+}
+
+.carrusel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carrusel-boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carrusel-boton.izquierda {
+  left: 10px;
+}
+
+.carrusel-boton.derecha {
+  right: 10px;
+}
+
+/* Consolas */
+.fila-consolas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.consola-item {
+  text-align: center;
+  flex: 1;
+  max-width: calc(100% / 3 - 20px); /* Cada consola ocupa 1/3 del ancho */
+}
+
+.consola-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.nombre-consola {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.btn-compra {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.btn-compra:hover {
+  background-color: #0056b3;
+}
+/*------------------------------------------------------------------------videojuegos-----------------------------------------------------*/
+/* Estilo general del contenedor */
+.mision {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Título */
+.titulo-mision {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Párrafo de introducción */
+.parrafo-mision {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Grid de videojuegos */
+.videojuegos-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Cinco columnas iguales */
+  gap: 20px; /* Espacio entre elementos */
+  justify-content: center;
+}
+
+/* Cada videojuego */
+.videojuego-item {
+  text-align: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px; /* Altura fija */
+}
+
+.videojuego-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagen del videojuego */
+.videojuego-item img {
+  width: 100%;
+  height: 150px; /* Altura fija para todas las imágenes */
+  object-fit: cover; /* Asegura que la imagen se ajuste sin distorsión */
+  border-radius: 5px;
+}
+
+/* Nombre del videojuego */
+.nombre-videojuego {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0 5px;
+}
+
+/* Precio */
+.precio-videojuego {
+  font-size: 1.1rem;
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+/* Botón de compra */
+.btn-compra {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-compra:hover {
+  background-color: #0056b3;
+}
+
+/*------------------------------------------------------------------------accesorio-----------------------------------------------------*/
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Fondo azul claro */
+}
+
+/* Título */
+.titulo-vision, h1 {
+  text-align: center;
+  padding: 20px;
+  color: #0078D7; /* Azul brillante */
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Estilo para los accesorios */
+.accessories-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.accessories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.accessory {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb); /* Degradado azul claro */
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: 300px; /* Tamaño uniforme para todos los cuadros */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.accessory:hover {
+  transform: scale(1.05); /* Animación al pasar el mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.accessory h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #0056b3; /* Azul más oscuro */
+}
+
+.accessory p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 0.9em;
+}
+
+/* Tamaño, estilo y animación de las imágenes */
+.accessory-image {
+  width: 100%;
+  height: 150px; /* Tamaño uniforme para las imágenes */
+  object-fit: cover; /* Ajusta la imagen sin deformarla */
+  border-radius: 8px;
+  border: 2px solid #0078D7; /* Borde azul brillante */
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.accessory-image:hover {
+  transform: scale(1.1); /* Zoom al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+
+
+/* Respuesta en pantallas pequeñas */
+@media (max-width: 768px) {
+  .accessories {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Respuesta en pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .accessories {
+    grid-template-columns: 1fr;
+  }
+}
+/* Botones "Comprar" */
+.buy-button {
+  background-color: #0078D7; /* Azul brillante */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.buy-button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Pequeño zoom */
+}
+
+/* Accesorios */
+.accessory {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

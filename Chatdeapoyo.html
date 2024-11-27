@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CECYTEM COACALCO| Cuidado de la salud Mental y prevención de adicciones.</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="color-background.js"></script>
+</head>
+<body>
+    <div id="Inicio_pagina"></div>
+    <header>
+        <nav>
+            <div class="container-hero">
+                <div class="container hero"><!-- crea un contenedro con las caracteristicas especificas declaradas en css -->
+                    
+
+                    <div class="container-logo"><!-- se deriva una clase con el mismo contenedor donde en esta se mete una imagen  -->
+                        <img src="logogames.png" alt="logo" width="105" height="105" ><!-- se mete la imagen que se vaa utilizar en esta tambien se le asignan el tamaño de la imagen-->
+                    </div><!-- se cierra el div declarado -->
+
+                    <div class="customer-support"><!-- crea una clase a la cual se le asigna un mobre en esta misma se le integra diseño de css -->
+                        <div class="content-customer-support"><!-- crea un contenedor donde se le dara los estilos empleados en el css -->
+                            <span class="text1">FERBEGAMES</span><!-- spna se utiliza para agrupar elementos de texto en línea.es un elemento de nivel de línea, lo que significa que no provoca un salto de línea y se utiliza para aplicar estilos -->
+                            <span class="text2">“De jugadores para jugadores”</span><!-- span se utiliza para agrupar elementos de texto en línea.es un elemento de nivel de línea, lo que significa que no provoca un salto de línea y se utiliza para aplicar estilos -->
+                            
+                        </div><!-- se cierra el div declarado arriba -->
+                    </div><!-- se cierra el div declarado arriba -->
+                </div><!-- se cierra el div declarado arriba -->
+            </div>
+            <ul class="menu">
+               <li><a href="#footer">Contacto</a></li>
+               <li><a href="#footer">Acerca De Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="espacio4"></div>
+    <div class="todoelchat">
+        <div class="texth1chat">
+            <h1>Chatbot de Apoyo</h1>
+            <div class="espacioulli"></div>
+            <p>Ingresa una palabra referente a la pagina y da clic al botón.</p>
+        </div>
+        <div class="espacioulli"></div>
+        <div class="espacioulli"></div>
+        
+        <!-- Contenedor principal del chat y la sección de palabras clave -->
+        <div id="chat-container">
+            <!-- Sección del chat -->
+            <div id="chat-section">
+                <div id="chatlogs"></div>
+                <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+                <button class="enviarmsj" type="button" onclick="sendMessage()">Enviar</button>
+            </div>
+            
+            <!-- Sección para mostrar las opciones de palabras clave -->
+            <div id="keywords">
+                <p>Puedes preguntar sobre:</p>
+                <ul>
+                    <li>hola</li>
+                    <li>ayuda</li>
+                    <li>consolas</li>
+                    <li>videojuegos</li>
+                    <li>accesorios</li>
+                    <li>arcades</li>
+                    <li>no prende</li>
+                    <li>no jala el juego</li>
+                    <li>se traba</li>
+                    <li>adios</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const responses = {
+            "hola": "Hola, ¿En que te podemos ayudar?",
+            "ayuda": "Comunicate con nosotros atravéz de nuestro Correo Electronico : ferbgames@gmail.com",
+            "consolas": "Contamos con XBOX, PLAYSTATION, NINTENDO, WII, GAMEBOY.",
+            "videojuegos": "Te ofrecemos juegos con titulos anteriores hasta titulos de videojuegos recientes.",
+            "accesorios": "Te ofrecemos audifonos, mandos, cables, sillas, ventilación, etc.",
+            "arcades": "Contamos con cualquier tipo de arcade e incluso con solo los controles para proyectar en pantalla.",
+            "no prende": "Desconecta y conecta la consola. De continuar asi agende una cita con nosotros. O escribe la palabra ayuda en el chat. ",
+            "no jala el juego": "Desisntala y instala denuevo el juego.",
+            "se traba": "Reinicia la consola.",
+            "adios": "Adiós, espero haberte ayudado."
+        };
+
+        function sendMessage() {
+            const userInput = document.getElementById('userInput').value.toLowerCase();
+            const chatlogs = document.getElementById('chatlogs');
+            const userMessage = document.createElement('p');
+            userMessage.textContent = "Tú: " + userInput;
+            chatlogs.appendChild(userMessage);
+            
+            let responseMessage = "Lo siento, no entiendo tu mensaje.";
+            for (let key in responses) {
+                if (userInput.includes(key)) {
+                    responseMessage = responses[key];
+                    break;
+                }
+            }
+            
+            const botMessage = document.createElement('p');
+            botMessage.textContent = "Bot: " + responseMessage;
+            chatlogs.appendChild(botMessage);
+            
+            document.getElementById('userInput').value = '';
+        }
+    </script>
+
+    <div class="espacio7"></div>
+    <footer id="footer"> <!-- Se abre un pie de página con el identificador 'footer'. -->
+        <div class="imf-logofot"> <!-- Se abre un contenedor div con la clase CSS 'imf-logofot'. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+            <img src="logogames.png" alt="logo" width="145" height="145" > <!-- Se inserta una imagen con la ruta especificada y atributos de ancho y alto. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+        </div> <!-- Se cierra el contenedor 'imf-logofot'. -->
+        <div class="contacto"> <!-- Se abre un contenedor div con la clase CSS 'contacto'. -->
+            <h2>Contacto</h2> <!-- Se inserta un encabezado de nivel 2 con el texto "Contacto". -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+            <h6>¿Tienes dudas? ¡Contáctanos!</h6> <!-- Se inserta un encabezado de nivel 6 con el texto "¿Tienes dudas? ¡Contáctanos!". -->
+            <address> <!-- Se abre un elemento de dirección. -->
+                <p>Email: <a href="mailto:ferbgames@gmail.com">ferbgames@gmail.com</a></p> <!-- Se inserta un párrafo con un enlace de correo electrónico. -->
+                <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+            </address> <!-- Se cierra el elemento de dirección. -->
+        </div> <!-- Se cierra el contenedor 'contacto'. -->
+        <div class="acerca"> <!-- Se abre un contenedor div con la clase CSS 'acerca'. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+            <h2>Acerca de Nosotros</h2> <!-- Se inserta un encabezado de nivel 2 con el texto "Acerca de Nosotros". -->
+            <div class="espacio-textacerca"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espacio-textacerca'. -->
+            <h6>Nosotros somos una empresa que vende consolas, videojuegos, accesorios, arcades. Deseamos atraer mas jovenes y adultos a este mundo de los videojuegos.  <!-- Se inserta un encabezado de nivel 6 con texto explicativo. -->
+                <div class="espacio-textacerca"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espacio-textacerca'. -->
+                <p>Alumnos:</p> <!-- Se inserta un párrafo con el texto "Alumnos:". -->
+                <div class="espacioulli"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espacioulli'. -->
+                <ol> <!-- Se abre una lista ordenada. -->
+                    <li>Alcántara Pérez José Alberto</li> <!-- Se inserta un elemento de lista con el nombre de un alumno. -->
+                    <li>Cruz Aguilar José Fernando</li> <!-- Se inserta un elemento de lista con el nombre de un alumno. -->
+                </ol> <!-- Se cierra la lista ordenada. -->
+                <div class="espacioulli"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espacioulli'. -->
+                <br>¡Explora nuestra página y descubre más sobre nosotros!</h6> <!-- Se inserta un salto de línea y texto explicativo. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+        </div> <!-- Se cierra el contenedor 'acerca'. -->
+        <div class="redes"> <!-- Se abre un contenedor div con la clase CSS 'redes'. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+            <h2>Redes Sociales</h2> <!-- Se inserta un encabezado de nivel 2 con el texto "Redes Sociales". -->
+            <a href="https://www.facebook.com/profile.php?id=61559078582221&mibextid=LQQJ4d" class="face"> <!-- Se inserta un enlace a Facebook con la clase CSS 'face'. -->
+                <i class="fa-brands fa-facebook"></i> <!-- Se inserta un icono de Facebook. -->
+            </a> <!-- Se cierra el enlace a Facebook. -->
+            <a href="https://www.instagram.com/gafen_coacalco?igsh=ZGxxZXJkbGdpZGF3&utm_source=qr" class="insta"> <!-- Se inserta un enlace a Instagram con la clase CSS 'insta'. -->
+                <i class="fa-brands fa-square-instagram"></i> <!-- Se inserta un icono de Instagram. -->
+            </a> <!-- Se cierra el enlace a Instagram. -->
+            <div class="espaciofooter"></div> <!-- Se abre y se cierra un contenedor div vacío con la clase CSS 'espaciofooter'. -->
+        </div> <!-- Se cierra el contenedor 'redes'. -->
+    </footer> <!-- Se cierra el pie de página. -->
+    
+    <footer2> <!-- Se abre otro pie de página con el identificador 'footer2'. -->
+        <div class="derechos"> <!-- Se abre un contenedor div con la clase CSS 'derechos'. -->
+            <p>&copy; 2024 CECYTEM COACALCO | FERBGAMES. Todos los Derechos Reservados</p> <!-- Se inserta un párrafo con derechos de autor. -->
+            <div class="espacioulli"></div>
+                            <div class="visitado">
+                                <p>Esta página ha sido visitada <strong id="visit-count">0</strong> veces.</p>
+                                <script src="counter.js"></script>
+                            </div>
+        </div> <!-- Se cierra el contenedor 'derechos'. -->
+    </footer2> <!-- Se cierra el segundo pie de página. -->
+
+    
+</body> <!-- Se cierra el cuerpo del documento HTML. -->
+</html> <!-- Se cierra el documento HTML. -->
